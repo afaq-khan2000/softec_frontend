@@ -2,7 +2,7 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 
 const instance = axios.create({
-  baseURL: `${import.meta.env.VITE_SERVER_URL}/api`,
+  baseURL: `https://softecbackend-production.up.railway.app/api`,
   headers: {
     'Content-Type': 'application/json',
     // 'cache-control': 'no-cache',
